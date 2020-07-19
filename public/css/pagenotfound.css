@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.message,
+.error-type {
+  font-size: 3rem;
+  color: #555;
+}
+
+.sad-emoji {
+  border-radius: 50%;
+}
